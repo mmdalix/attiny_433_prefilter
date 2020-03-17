@@ -56,7 +56,7 @@ void init_system(void){
 	
 	//init input
 	SET(PCMSK, PCINT4);	//PB4 pin change interrupt
-	SET(MCUCR, ISC00);	//enamle pin interrupt on any change
+	SET(MCUCR, ISC00);	//enable pin interrupt on any change
 	SET(GIMSK, PCIE);	//enable pin change interrupt
 	
 	//init output
